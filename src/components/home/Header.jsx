@@ -13,13 +13,13 @@ const Header = () => {
                 src={"/images/Logo.png"}
                 className={style.logo}
             />
-            {/* <h2>Este es el Header</h2> */}
-            <button>popular</button>
-            <button>favorites</button>
+            <button className={style.buttonPopular}>popular</button>
+            <button className={style.buttonfavorites}>favorites</button>
             <Image 
                 width={32}
                 height={32}
                 src={"/images/login.png"}
+                className={style.login}
             />
         </div>
     )

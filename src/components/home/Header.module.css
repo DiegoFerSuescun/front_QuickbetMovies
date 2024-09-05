@@ -1,14 +1,38 @@
 .contenedorHeader{
-    /* width: 100%; */
     height: 69px;
-    /* padding: 0px 100px 0px 100px; */
-    /* gap: 42px; */
-    /* opacity: 0px; */
     background: rgba(0, 0, 0, 1);
-    ;
+    display: flex;
+    flex-direction: row;
 }
 
 .logo{
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 1%;
+}
+
+.buttonPopular{
+    margin-left: 5%;
+    width: 84px;
+    height: 36px;
+    margin-top: 1.2%;
+    background-color: transparent;
+    border: transparent;
+    color: rgba(246, 246, 246, 1);
+    font: Inter;    
+}
+
+.buttonfavorites{
+    margin-left: 5%;
+    width: 84px;
+    height: 36px;
+    margin-top: 1.2%;
+    background-color: transparent;
+    border: transparent;
+    color: rgba(246, 246, 246, 1);
+    font: Inter;
+}
+
+.login{
+    margin-top: 1.2%;
+    margin-left: 50%;
 }

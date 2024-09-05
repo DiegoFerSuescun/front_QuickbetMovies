@@ -1,0 +1,44 @@
+.contenedorBanner{
+    width: 100%;
+    height: 436px;
+    background: red;
+    display: flex;
+    align-items: start;
+}
+
+.contenedorPelicula{
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 60%;
+}
+.tituloPelicula{
+    display: flex;
+    font: italic;
+    color: rgba(255, 255, 255, 1);
+    width: 80%;
+}
+
+.contendioDeLaPelicula{
+    margin-top: 3%;
+    font: italic;
+    color: rgba(255, 255, 255, 1);
+    /* width: 872px ; */
+}
+
+.contenedorfavs{
+    margin-top: 20%;
+    margin-left: 1%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.favoritesIcon{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.favoritesCalification{
+    margin-top: 10%;
+    margin-left: 10%;
+}

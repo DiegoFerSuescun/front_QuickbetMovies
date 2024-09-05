@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer"
+import Footer from "./Footer";
+import Banner from "../banner/Banner.jsx"
 import style from "./index.module.css"
 
 
@@ -8,7 +9,9 @@ const index = () => {
     return(
         <div className={style.contenedor}>
             <Header/>
-                <h1>HOLI ESTE ES EL COMPONENTE HOME</h1>
+            <div>
+                <Banner />    
+            </div>
             <Footer />
         </div>
     )
