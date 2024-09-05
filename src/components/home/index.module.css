@@ -2,6 +2,22 @@
     height: 2703px;
     top: -1352px;
     left: -3841px;
-    gap: 0px;
+    gap: 12px;
     opacity: 0px;
+    background-color: rgb(65, 64, 64);
+}
+
+.contenedorTitlePopular{
+    margin-top: 2%;
+}
+
+.popularTitle{
+    margin-left: 2%;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contenedorPopularCards{
+    margin-top: 2%;
+    gap: 10px;
 }

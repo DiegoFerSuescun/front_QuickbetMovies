@@ -3,7 +3,7 @@
     height: 436px;
     background: red;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .contenedorPelicula{

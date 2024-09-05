@@ -1,0 +1,43 @@
+.contentCard{
+    /* border: 3px solid rgb(247, 246, 248); */
+    background-color: rgba(38, 38, 38, 1);
+    border-radius: 8px;
+    width: 200px;
+    height: 335px;
+    margin-top: 2%;
+}
+
+.image{
+    border-radius: 5px;
+}
+
+.contenTitleMovie{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.titlemovie{
+    color: rgba(246, 246, 246, 1);
+    font-size: 16px;
+}
+
+.contentDate{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.datemovie{
+    color: rgba(246, 246, 246, 1);
+    font-size: 12px;
+}
+
+.contentstats{
+    margin-top: 3%;
+    margin-left: 10%;
+    gap: 80px;
+}
+
+.stats{
+    font-size: 9px;
+    color: rgba(246, 246, 246, 1);
+}
