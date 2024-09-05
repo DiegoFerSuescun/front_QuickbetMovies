@@ -1,9 +1,10 @@
 import RootLayout from "./layout";
+import Home from "../components/home"
 
-export default function Home(): JSX.Element {
+export default function Page() {
   return (
     <RootLayout>
-      <h1>Welcome to the Inlaze Next.js Starter!</h1>
+        <Home/>
     </RootLayout>
   );
 }
