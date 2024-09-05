@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Banner from "../banner/Banner.jsx";
 import ContentCards from "../contentcards/ContentCards.jsx";
+import Filter from "../filters/Filter";
 
 
 //Estilos
@@ -16,8 +17,8 @@ const index = () => {
                 <Banner />    
             </div>
             <Row>
-                <Col md={4}>
-                    <h1>Filtros</h1>
+                <Col md={4} className={style.containerFilter}>
+                    <Filter />
                 </Col>
                 <Col md={20}>
                     <Row className={style.contenedorTitlePopular}>

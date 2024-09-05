@@ -1,10 +1,14 @@
 .contenedor{
-    height: 2703px;
+    /* height: 2703px; */
     top: -1352px;
     left: -3841px;
     gap: 12px;
     opacity: 0px;
     background-color: rgb(65, 64, 64);
+}
+
+.containerFilter{
+    background-color: rgb(30, 29, 29);
 }
 
 .contenedorTitlePopular{

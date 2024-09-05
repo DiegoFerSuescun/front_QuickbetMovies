@@ -11,7 +11,8 @@ const Card1 = () => {
                 width={200}
                 height={223}
                 src={"/images/pelicula.jpg"}
-                className={style.image}       
+                className={style.image}
+                alt="movie"      
             />   
             <Row className={style.contenTitleMovie}>
                 <p className={style.titlemovie}>Nombre de la pelicula</p>

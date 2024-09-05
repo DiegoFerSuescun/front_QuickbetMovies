@@ -15,6 +15,7 @@ const Banner = () => {
                     height={25}
                     src={"/images/favorites.png"}
                     className={style.favoritesIcon}
+                    alt="fav"
                 />
                 <h3 className={style.favoritesCalification}>Califiacion</h3>
             </div>
