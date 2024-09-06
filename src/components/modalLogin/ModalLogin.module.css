@@ -1,0 +1,47 @@
+.modalcontainer {
+    width: 800px !important;
+    height: 500px !important;
+    /* background-color: rgba(0, 0, 0, 0.24); */
+    /* color: red; */
+}
+
+.modalcontainer .ant-modal .ant-modal-content {
+    background-color: red !important;
+}
+
+.comtainerimagen{
+    margin-left: 4%;
+}
+
+.containersegment{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.containerEmail{
+    /* margin-left: 20%; */
+    margin-top: 25%;
+}
+
+.containerinputs{
+    margin-top: 5%;
+}
+.containerButton{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.button{
+    background-color: rgba(240, 185, 11, 1);
+    width: 80%;
+}
+
+.segment{
+    background-color: rgba(38, 38, 38, 1);
+    color: rgba(246, 246, 246, 1);
+}
+
+.inputs{
+    width: 70%;
+    margin-left: 15%;
+}
